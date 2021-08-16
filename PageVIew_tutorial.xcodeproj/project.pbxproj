@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EF0E3149AD4EFB52D02FA6E /* Pods_PageVIew_tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158F909851C382988794CEFB /* Pods_PageVIew_tutorial.framework */; };
 		8EA744DA26C3C3C400FFC141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA744D926C3C3C400FFC141 /* AppDelegate.swift */; };
 		8EA744DC26C3C3C400FFC141 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA744DB26C3C3C400FFC141 /* SceneDelegate.swift */; };
 		8EA744DE26C3C3C400FFC141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA744DD26C3C3C400FFC141 /* ViewController.swift */; };
 		8EA744E126C3C3C400FFC141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA744DF26C3C3C400FFC141 /* Main.storyboard */; };
 		8EA744E326C3C3C500FFC141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA744E226C3C3C500FFC141 /* Assets.xcassets */; };
 		8EA744E626C3C3C500FFC141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA744E426C3C3C500FFC141 /* LaunchScreen.storyboard */; };
+		8EA744F226C3D0ED00FFC141 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EA744EE26C3D0ED00FFC141 /* 1.jpeg */; };
+		8EA744F326C3D0ED00FFC141 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EA744EF26C3D0ED00FFC141 /* 2.jpeg */; };
+		8EA744F426C3D0ED00FFC141 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EA744F026C3D0ED00FFC141 /* 4.jpeg */; };
+		8EA744F526C3D0ED00FFC141 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EA744F126C3D0ED00FFC141 /* 3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FD910AE42B43338CA16A1D5 /* Pods-PageVIew_tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageVIew_tutorial.release.xcconfig"; path = "Target Support Files/Pods-PageVIew_tutorial/Pods-PageVIew_tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		158F909851C382988794CEFB /* Pods_PageVIew_tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageVIew_tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C84EF702C4D2D4C7D3E1322 /* Pods-PageVIew_tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageVIew_tutorial.debug.xcconfig"; path = "Target Support Files/Pods-PageVIew_tutorial/Pods-PageVIew_tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		8EA744D626C3C3C400FFC141 /* PageVIew_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageVIew_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA744D926C3C3C400FFC141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EA744DB26C3C3C400FFC141 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		8EA744E226C3C3C500FFC141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EA744E526C3C3C500FFC141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EA744E726C3C3C500FFC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA744EE26C3D0ED00FFC141 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		8EA744EF26C3D0ED00FFC141 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		8EA744F026C3D0ED00FFC141 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		8EA744F126C3D0ED00FFC141 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF0E3149AD4EFB52D02FA6E /* Pods_PageVIew_tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CDC9DA27C2BF13C665FA3EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				158F909851C382988794CEFB /* Pods_PageVIew_tutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8EA744CD26C3C3C400FFC141 = {
 			isa = PBXGroup;
 			children = (
 				8EA744D826C3C3C400FFC141 /* PageVIew_tutorial */,
 				8EA744D726C3C3C400FFC141 /* Products */,
+				C177A5B2A7C7F722161359FF /* Pods */,
+				1CDC9DA27C2BF13C665FA3EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,36 @@
 		8EA744D826C3C3C400FFC141 /* PageVIew_tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				8EA744ED26C3CFD200FFC141 /* Resources */,
 				8EA744D926C3C3C400FFC141 /* AppDelegate.swift */,
 				8EA744DB26C3C3C400FFC141 /* SceneDelegate.swift */,
 				8EA744DD26C3C3C400FFC141 /* ViewController.swift */,
 				8EA744DF26C3C3C400FFC141 /* Main.storyboard */,
-				8EA744E226C3C3C500FFC141 /* Assets.xcassets */,
 				8EA744E426C3C3C500FFC141 /* LaunchScreen.storyboard */,
 				8EA744E726C3C3C500FFC141 /* Info.plist */,
 			);
 			path = PageVIew_tutorial;
+			sourceTree = "<group>";
+		};
+		8EA744ED26C3CFD200FFC141 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EA744EE26C3D0ED00FFC141 /* 1.jpeg */,
+				8EA744EF26C3D0ED00FFC141 /* 2.jpeg */,
+				8EA744F126C3D0ED00FFC141 /* 3.jpeg */,
+				8EA744F026C3D0ED00FFC141 /* 4.jpeg */,
+				8EA744E226C3C3C500FFC141 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C177A5B2A7C7F722161359FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C84EF702C4D2D4C7D3E1322 /* Pods-PageVIew_tutorial.debug.xcconfig */,
+				0FD910AE42B43338CA16A1D5 /* Pods-PageVIew_tutorial.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EA744EA26C3C3C500FFC141 /* Build configuration list for PBXNativeTarget "PageVIew_tutorial" */;
 			buildPhases = (
+				71E6185AA45888A2F6A4BA0A /* [CP] Check Pods Manifest.lock */,
 				8EA744D226C3C3C400FFC141 /* Sources */,
 				8EA744D326C3C3C400FFC141 /* Frameworks */,
 				8EA744D426C3C3C400FFC141 /* Resources */,
+				F184F84F082919C4F8E23E36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +170,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA744F326C3D0ED00FFC141 /* 2.jpeg in Resources */,
 				8EA744E626C3C3C500FFC141 /* LaunchScreen.storyboard in Resources */,
 				8EA744E326C3C3C500FFC141 /* Assets.xcassets in Resources */,
 				8EA744E126C3C3C400FFC141 /* Main.storyboard in Resources */,
+				8EA744F426C3D0ED00FFC141 /* 4.jpeg in Resources */,
+				8EA744F526C3D0ED00FFC141 /* 3.jpeg in Resources */,
+				8EA744F226C3D0ED00FFC141 /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71E6185AA45888A2F6A4BA0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PageVIew_tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F184F84F082919C4F8E23E36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PageVIew_tutorial/Pods-PageVIew_tutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PageVIew_tutorial/Pods-PageVIew_tutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PageVIew_tutorial/Pods-PageVIew_tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EA744D226C3C3C400FFC141 /* Sources */ = {
@@ -283,6 +375,7 @@
 		};
 		8EA744EB26C3C3C500FFC141 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C84EF702C4D2D4C7D3E1322 /* Pods-PageVIew_tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +395,7 @@
 		};
 		8EA744EC26C3C3C500FFC141 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD910AE42B43338CA16A1D5 /* Pods-PageVIew_tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
